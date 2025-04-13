@@ -15,16 +15,14 @@ logo_base64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6
 # Encabezado con logo y fondo blanco
 
 st.markdown(f"""
-<div style="background: white; padding: 15px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <img src="{logo_base64}" width="100" style="margin-right: 20px;">
-    <div>
-        <h1 style='color: #2E86C1; margin: 0; border-bottom: 2px solid #3498DB; padding-bottom: 5px;'>
-            PCI y Emisiones No Causadas
-        </h1>
-        <p style='color: #7B8A8B; font-size: 12px; margin: 5px 0 0;'>
-            Creado por: HV. Martínez-Tejada | GeoFuturo CDR
-        </p>
-    </div>
+<div style="background: white; padding: 15px; border-radius: 10px; text-align: center; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <img src="{logo_base64}" width="80" style="margin-bottom: 10px;">
+    <h2 style='color: #2E86C1; margin: 0; border-bottom: 2px solid #3498DB; padding-bottom: 5px; font-size: 5vw;'>
+        PCI y Emisiones No Causadas
+    </h2>
+    <p style='color: #7B8A8B; font-size: 3vw; margin: 5px 0 0;'>
+        Creado por: HV. Martínez-Tejada | GeoFuturo CDR
+    </p>
 </div>
 """, unsafe_allow_html=True)
 
