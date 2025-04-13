@@ -20,7 +20,7 @@ st.markdown(f"""
     <h2 style='color: #2E86C1; margin: 0; border-bottom: 2px solid #3498DB; padding-bottom: 5px; font-size: 5vw;'>
         PCI y Emisiones No Causadas
     </h2>
-    <p style='color: #7B8A8B; font-size: 3vw; margin: 5px 0 0;'>
+    <p style='color: #7B8A8B; font-size: 2vw; margin: 5px 0 0;'>
         Creado por: HV. Martínez-Tejada | GeoFuturo CDR
     </p>
 </div>
